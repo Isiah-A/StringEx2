@@ -12,9 +12,11 @@ public class Exercise7_StringReversal {
         
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        
+
         // TODO: Create and print the reversed string
-        
+        StringBuilder sb = new StringBuilder(input);
+        String reversed = sb.reverse().toString();
+        System.out.println(reversed);
         scanner.close();
     }
 }
