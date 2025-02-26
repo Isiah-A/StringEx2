@@ -19,7 +19,8 @@ public class Exercise4_StringComparison {
         
         // TODO: Compare the strings using equals() and equalsIgnoreCase()
         // and print whether they are equal or not in both cases
-        
+        System.out.print(str1.equals(str2));
+        System.out.print(str1.equalsIgnoreCase(str2));
         scanner.close();
     }
 }
