@@ -15,9 +15,9 @@ public class Exercise1_StringLength {
         
         System.out.print("Please enter your name: ");
         String name = scanner.nextLine();
-        
+
         // TODO: Print the length of the name using the length() method
-        
+        System.out.println(name.length());
         scanner.close();
     }
 }
